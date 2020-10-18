@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+   background-image: url("imagenes/fondo.png");
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;   
+}
+ 
+header nav{
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+ 
+.enlaces{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.enlaces a{
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    padding: 3px 0;
+    transition: 0.15s ease-out;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+.enlaces a:hover, .active{
+    border-top: 1px solid rgb(95, 90, 95);
+    border-bottom: 1px solid rgb(95, 90, 95);
+}
+
+nav .logo{
+  height: 100%;
+  background: #ffffff;
+  margin-left: 50px;
+}
+
+nav .logo img{
+    object-fit: cover;
+    height: inherit;
+}
+
+header .titulo {
+    text-align: center;
+    color: white;
+    margin-top: 500px;   
+}
+
+header .titulo h1{
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: fantasy;
+    font-size: 25px;
+    text-shadow: 1px ;
+    margin-left: 45%;
+     margin-right: 45%;
+    border: silver 2px solid;
+    border-radius: 20px;
+}
+
